@@ -15,11 +15,26 @@ body {
   justify-content: center;
 }
 
+.text {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
+  display: flex;
 }
 
 .icon {
@@ -31,8 +46,10 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
+  margin-right: 10px;
 }
 
 .close-button {
